@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" role="img" aria-label="PLIT 3D">
+  <defs>
+    <linearGradient id="top1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="35%" stop-color="#FAFBFC"/>
+      <stop offset="75%" stop-color="#EFF2F6"/>
+      <stop offset="100%" stop-color="#E2E7EE"/>
+    </linearGradient>
+    <linearGradient id="sideL1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EDF0F4"/>
+      <stop offset="55%" stop-color="#DDE2E9"/>
+      <stop offset="100%" stop-color="#CCD3DC"/>
+    </linearGradient>
+    <linearGradient id="sideR1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F6F8FA"/>
+      <stop offset="55%" stop-color="#E7EBF1"/>
+      <stop offset="100%" stop-color="#D4DAE2"/>
+    </linearGradient>
+    <linearGradient id="topA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF6D0"/>
+      <stop offset="30%" stop-color="#FFD08A"/>
+      <stop offset="70%" stop-color="#FF8C1A"/>
+      <stop offset="100%" stop-color="#D94A00"/>
+    </linearGradient>
+    <linearGradient id="sideLA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F08A10"/>
+      <stop offset="100%" stop-color="#8A3A00"/>
+    </linearGradient>
+    <linearGradient id="sideRA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF9C2E"/>
+      <stop offset="100%" stop-color="#A84E00"/>
+    </linearGradient>
+    <linearGradient id="top2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8CFFF0"/>
+      <stop offset="35%" stop-color="#3EF0D0"/>
+      <stop offset="65%" stop-color="#1FA2FF"/>
+      <stop offset="100%" stop-color="#2A2FA8"/>
+    </linearGradient>
+    <linearGradient id="sideL2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0E9E8C"/>
+      <stop offset="100%" stop-color="#1E1C80"/>
+    </linearGradient>
+    <linearGradient id="sideR2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2FC9C0"/>
+      <stop offset="100%" stop-color="#252A9E"/>
+    </linearGradient>
+    <radialGradient id="sheen" cx="26%" cy="15%" r="85%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="75%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orangeReflectTop" cx="50%" cy="88%" r="85%">
+      <stop offset="0%" stop-color="#FF8C1A" stop-opacity="0.35"/>
+      <stop offset="45%" stop-color="#FFB347" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#FF8C1A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orangeReflectBottom" cx="50%" cy="12%" r="85%">
+      <stop offset="0%" stop-color="#FF8C1A" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#FFB347" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FF8C1A" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs><g transform="translate(0,-3.50)"><ellipse cx="80.0" cy="212.0" rx="58.5" ry="10" fill="#000" opacity="0.18"/><polygon points="80.0,65.0 145.0,102.0 80.0,139.0 15.0,102.0" fill="url(#top2)"/><polygon points="15.0,102.0 80.0,139.0 80.0,150.0 15.0,113.0" fill="url(#sideL2)"/><polygon points="80.0,139.0 145.0,102.0 145.0,113.0 80.0,150.0" fill="url(#sideR2)"/><polygon points="80.0,65.0 145.0,102.0 80.0,139.0 15.0,102.0" fill="url(#sheen)" opacity="0.75"/><polygon points="80.0,65.0 145.0,102.0 80.0,139.0 15.0,102.0" fill="url(#orangeReflectBottom)"/><polygon points="80.0,41.0 145.0,78.0 80.0,115.0 15.0,78.0" fill="url(#topA)" filter="url(#glow)"/><polygon points="15.0,78.0 80.0,115.0 80.0,126.0 15.0,89.0" fill="url(#sideLA)"/><polygon points="80.0,115.0 145.0,78.0 145.0,89.0 80.0,126.0" fill="url(#sideRA)"/><polygon points="80.0,41.0 145.0,78.0 80.0,115.0 15.0,78.0" fill="url(#sheen)" opacity="1"/><polygon points="80.0,17.0 145.0,54.0 80.0,91.0 15.0,54.0" fill="url(#top1)"/><polygon points="15.0,54.0 80.0,91.0 80.0,102.0 15.0,65.0" fill="url(#sideL1)"/><polygon points="80.0,91.0 145.0,54.0 145.0,65.0 80.0,102.0" fill="url(#sideR1)"/><polygon points="80.0,17.0 145.0,54.0 80.0,91.0 15.0,54.0" fill="url(#sheen)" opacity="0.8"/><polygon points="80.0,17.0 145.0,54.0 80.0,91.0 15.0,54.0" fill="url(#orangeReflectTop)"/></g>
+</svg>
