@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-116 -121 232 242" width="232" height="242" role="img" aria-label="MebelGrid">
+  <defs>
+    <linearGradient id="awt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8CE74"/>
+      <stop offset="1" stop-color="#EFA93E"/>
+    </linearGradient>
+    <linearGradient id="awl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EFB048"/>
+      <stop offset="1" stop-color="#D28C22"/>
+    </linearGradient>
+    <linearGradient id="abf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#55AEFF"/>
+      <stop offset="1" stop-color="#1D66E0"/>
+    </linearGradient>
+  </defs>
+  <polygon points="-98.73,-43.0 -12.12,7.0 -20.78,12.0 -107.39,-38.0" fill="#F6C566" stroke="#F6C566" stroke-width="4" stroke-linejoin="round"/>
+  <polygon points="-12.12,7.0 -12.12,107.0 -20.78,112.0 -20.78,12.0" fill="#B87413" stroke="#B87413" stroke-width="4" stroke-linejoin="round"/>
+  <polygon points="-107.39,-38.0 -20.78,12.0 -20.78,112.0 -107.39,62.0" fill="url(#awl)" stroke="url(#awl)" stroke-width="4" stroke-linejoin="round"/>
+  <polygon points="12.12,7.0 98.73,-43.0 107.39,-38.0 20.78,12.0" fill="#8ECAFF"/>
+  <polygon points="12.12,7.0 12.12,107.0 20.78,112.0 20.78,12.0" fill="#1A57C0"/>
+  <polygon points="20.78,12.0 107.39,-38.0 107.39,62.0 20.78,112.0" fill="url(#abf)"/>
+  <polygon points="-86.6,-64.0 0.0,-14.0 0.0,-4.0 -86.6,-54.0" fill="#D68E22" stroke="#D68E22" stroke-width="4" stroke-linejoin="round"/>
+  <polygon points="0.0,-14.0 86.6,-64.0 86.6,-54.0 0.0,-4.0" fill="#BC7314" stroke="#BC7314" stroke-width="4" stroke-linejoin="round"/>
+  <polygon points="0,-114.0 86.6,-64.0 0.0,-14.0 -86.6,-64.0" fill="url(#awt)" stroke="url(#awt)" stroke-width="4" stroke-linejoin="round"/>
+  <polygon points="20.78,12.0 107.39,-38.0 107.39,62.0 20.78,112.0" fill="none" stroke="#BFE0FF" stroke-width="2.2"/>
+  <rect x="16.28" y="7.5" width="9" height="9" rx="1.5" fill="#FFFFFF" stroke="#1D66E0" stroke-width="1.6"/>
+  <rect x="102.89" y="-42.5" width="9" height="9" rx="1.5" fill="#FFFFFF" stroke="#1D66E0" stroke-width="1.6"/>
+  <rect x="102.89" y="57.5" width="9" height="9" rx="1.5" fill="#FFFFFF" stroke="#1D66E0" stroke-width="1.6"/>
+  <rect x="16.28" y="107.5" width="9" height="9" rx="1.5" fill="#FFFFFF" stroke="#1D66E0" stroke-width="1.6"/>
+</svg>
