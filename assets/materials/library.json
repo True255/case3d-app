@@ -2,11 +2,13 @@
  "manufacturers": [
   {
    "id": "egger",
-   "name": "Egger"
+   "name": "Egger",
+   "logo": "assets/materials/manufacturers/egger-mark.svg"
   },
   {
    "id": "tomlesdrev",
-   "name": "Томлесдрев"
+   "name": "Томлесдрев",
+   "logo": "assets/materials/manufacturers/tomlesdrev-mark.png"
   }
  ],
  "items": [
