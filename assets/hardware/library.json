@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "id": "kitchen-leg-120",
+      "name": "Ножка кухонная Н120 (115-135 мм)",
+      "description": "Мебельная опора с регулировкой по высоте, невосприимчивая к воздействию влаги, благодаря пластиковому корпусу. Используется при сборке кухонных гарнитуров",
+      "category": "Опоры",
+      "modelUrl": "assets/hardware/models/leg.glb",
+      "previewUrl": "assets/hardware/previews/leg.png",
+      "anchor": [0, 0, 0]
+    },
+    {
+      "id": "gola-profile-400",
+      "name": "Gola-профиль 400 ТЕСТ",
+      "description": "Врезной профиль для фасадов без ручек. Растягивается по длине от 200 до 2400 мм.",
+      "category": "Профили",
+      "modelUrl": "assets/hardware/models/gola-profile.gltf",
+      "previewUrl": "assets/hardware/previews/gola-profile.svg",
+      "anchor": [-200, 0, 0],
+      "stretch": {
+        "x": { "min": 200, "max": 2400 }
+      },
+      "parameters": [
+        { "axes": ["x"], "valueAxis": "x", "valueScale": 1, "label": "Длина" }
+      ]
+    },
+    {
+      "id": "handle-bar-160",
+      "name": "Ручка-скоба 160 ТЕСТ",
+      "description": "Металлическая ручка-скоба длиной 160 мм для фасадов и ящиков.",
+      "category": "Ручки",
+      "modelUrl": "assets/hardware/models/handle.gltf",
+      "previewUrl": "assets/hardware/previews/handle.svg",
+      "anchor": [-80, 0, 0]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "LPC MVP hardware asset generator"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "gola"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "gola",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "gola-material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.55,
+          0.56,
+          0.58,
+          1
+        ],
+        "metallicFactor": 0.9,
+        "roughnessFactor": 0.25
+      },
+      "doubleSided": true
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "data:application/octet-stream;base64,AABIQwAAQMEAACDBAABIQwAAQEEAACDBAABIQwAAQEEAACBBAABIQwAAQMEAACBBAABIwwAAQEEAACDBAABIwwAAQMEAACDBAABIwwAAQMEAACBBAABIwwAAQEEAACBBAABIQwAAQEEAACDBAABIwwAAQEEAACDBAABIwwAAQEEAACBBAABIQwAAQEEAACBBAABIwwAAQMEAACDBAABIQwAAQMEAACDBAABIQwAAQMEAACBBAABIwwAAQMEAACBBAABIwwAAQMEAACBBAABIQwAAQMEAACBBAABIQwAAQEEAACBBAABIwwAAQEEAACBBAABIQwAAQMEAACDBAABIwwAAQMEAACDBAABIwwAAQEEAACDBAABIQwAAQEEAACDBAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAABAAIAAAACAAMABAAFAAYABAAGAAcACAAJAAoACAAKAAsADAANAA4ADAAOAA8AEAARABIAEAASABMAFAAVABYAFAAWABcA",
+      "byteLength": 648
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 288,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 576,
+      "byteLength": 72,
+      "target": 34963
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "min": [
+        -200,
+        -12,
+        -10
+      ],
+      "max": [
+        200,
+        12,
+        10
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "groups": [
+    {
+      "geometry": "euro-screw",
+      "label": "Конфирматы",
+      "preview": "assets/fasteners/previews/euro-screw.jpg"
+    },
+    {
+      "geometry": "dowel",
+      "label": "Шканты",
+      "preview": "assets/fasteners/previews/dowel.jpg"
+    },
+    {
+      "geometry": "eccentric",
+      "label": "Эксцентриковые стяжки",
+      "preview": "assets/fasteners/previews/eccentric.jpg"
+    },
+    {
+      "geometry": "corner-bracket",
+      "label": "Уголки",
+      "preview": "assets/fasteners/previews/corner-bracket.jpg"
+    }
+  ],
+  "fasteners": [
+    {
+      "id": "euro-6.3x40",
+      "name": "Евровинт",
+      "size": "6,3×40",
+      "geometry": "euro-screw",
+      "elementCount": 2,
+      "compatibility": ["perpendicular-panels"],
+      "diameter": 6.3,
+      "length": 40,
+      "holes": [
+        {
+          "part": "target",
+          "diameter": 6.3,
+          "depth": "through"
+        },
+        {
+          "part": "host",
+          "diameter": 4,
+          "depth": "total-length-minus-target",
+          "margin": 5
+        }
+      ]
+    },
+    {
+      "id": "euro-6.3x50",
+      "name": "Евровинт",
+      "size": "6,3×50",
+      "geometry": "euro-screw",
+      "elementCount": 2,
+      "compatibility": ["perpendicular-panels"],
+      "diameter": 6.3,
+      "length": 50,
+      "holes": [
+        {
+          "part": "target",
+          "diameter": 6.3,
+          "depth": "through"
+        },
+        {
+          "part": "host",
+          "diameter": 4,
+          "depth": "total-length-minus-target",
+          "margin": 5
+        }
+      ]
+    },
+    {
+      "id": "euro-6.3x70",
+      "name": "Евровинт",
+      "size": "6,3×70",
+      "geometry": "euro-screw",
+      "elementCount": 2,
+      "compatibility": ["perpendicular-panels"],
+      "diameter": 6.3,
+      "length": 70,
+      "holes": [
+        {
+          "part": "target",
+          "diameter": 6.3,
+          "depth": "through"
+        },
+        {
+          "part": "host",
+          "diameter": 4,
+          "depth": "total-length-minus-target",
+          "margin": 5
+        }
+      ]
+    },
+    {
+      "id": "euro-7x50",
+      "name": "Евровинт",
+      "size": "7×50",
+      "geometry": "euro-screw",
+      "elementCount": 2,
+      "compatibility": ["perpendicular-panels"],
+      "diameter": 7,
+      "length": 50,
+      "holes": [
+        {
+          "part": "target",
+          "diameter": 7,
+          "depth": "through"
+        },
+        {
+          "part": "host",
+          "diameter": 4,
+          "depth": "total-length-minus-target",
+          "margin": 5
+        }
+      ]
+    },
+    {
+      "id": "euro-7x70",
+      "name": "Евровинт",
+      "size": "7×70",
+      "geometry": "euro-screw",
+      "elementCount": 2,
+      "compatibility": ["perpendicular-panels"],
+      "diameter": 7,
+      "length": 70,
+      "holes": [
+        {
+          "part": "target",
+          "diameter": 7,
+          "depth": "through"
+        },
+        {
+          "part": "host",
+          "diameter": 4,
+          "depth": "total-length-minus-target",
+          "margin": 5
+        }
+      ]
+    },
+    {
+      "id": "dowel-6x30",
+      "name": "Шкант",
+      "size": "6×30",
+      "geometry": "dowel",
+      "elementCount": 2,
+      "compatibility": ["panel-joints", "perpendicular-panels"],
+      "diameter": 6,
+      "length": 30,
+      "holes": [
+        {
+          "part": "target",
+          "diameter": 6,
+          "depth": "dowel"
+        },
+        {
+          "part": "host",
+          "diameter": 6,
+          "depth": "dowel"
+        }
+      ]
+    },
+    {
+      "id": "dowel-6x35",
+      "name": "Шкант",
+      "size": "6×35",
+      "geometry": "dowel",
+      "elementCount": 2,
+      "compatibility": ["panel-joints", "perpendicular-panels"],
+      "diameter": 6,
+      "length": 35,
+      "holes": [
+        {
+          "part": "target",
+          "diameter": 6,
+          "depth": "dowel"
+        },
+        {
+          "part": "host",
+          "diameter": 6,
+          "depth": "dowel"
+        }
+      ]
+    },
+    {
+      "id": "dowel-8x30",
+      "name": "Шкант",
+      "size": "8×30",
+      "geometry": "dowel",
+      "elementCount": 2,
+      "compatibility": ["panel-joints", "perpendicular-panels"],
+      "diameter": 8,
+      "length": 30,
+      "holes": [
+        {
+          "part": "target",
+          "diameter": 8,
+          "depth": "dowel"
+        },
+        {
+          "part": "host",
+          "diameter": 8,
+          "depth": "dowel"
+        }
+      ]
+    },
+    {
+      "id": "dowel-8x35",
+      "name": "Шкант",
+      "size": "8×35",
+      "geometry": "dowel",
+      "elementCount": 2,
+      "compatibility": ["panel-joints", "perpendicular-panels"],
+      "diameter": 8,
+      "length": 35,
+      "holes": [
+        {
+          "part": "target",
+          "diameter": 8,
+          "depth": "dowel"
+        },
+        {
+          "part": "host",
+          "diameter": 8,
+          "depth": "dowel"
+        }
+      ]
+    },
+    {
+      "id": "dowel-8x40",
+      "name": "Шкант",
+      "size": "8×40",
+      "geometry": "dowel",
+      "elementCount": 2,
+      "compatibility": ["panel-joints", "perpendicular-panels"],
+      "diameter": 8,
+      "length": 40,
+      "holes": [
+        {
+          "part": "target",
+          "diameter": 8,
+          "depth": "dowel"
+        },
+        {
+          "part": "host",
+          "diameter": 8,
+          "depth": "dowel"
+        }
+      ]
+    },
+    {
+      "id": "dowel-10x40",
+      "name": "Шкант",
+      "size": "10×40",
+      "geometry": "dowel",
+      "elementCount": 2,
+      "compatibility": ["panel-joints", "perpendicular-panels"],
+      "diameter": 10,
+      "length": 40,
+      "holes": [
+        {
+          "part": "target",
+          "diameter": 10,
+          "depth": "dowel"
+        },
+        {
+          "part": "host",
+          "diameter": 10,
+          "depth": "dowel"
+        }
+      ]
+    },
+    {
+      "id": "eccentric-15x24",
+      "name": "Эксцентриковая стяжка",
+      "size": "15×24",
+      "geometry": "eccentric",
+      "elementCount": 2,
+      "compatibility": ["perpendicular-panels"],
+      "diameter": 15,
+      "length": 35,
+      "setback": 24,
+      "centered": true,
+      "holes": [
+        {
+          "part": "host",
+          "diameter": 15,
+          "depth": 12.5,
+          "axis": "face",
+          "inset": 24
+        },
+        {
+          "part": "host",
+          "diameter": 8,
+          "depth": 24
+        },
+        {
+          "part": "target",
+          "diameter": 5,
+          "depth": 11
+        }
+      ]
+    },
+    {
+      "id": "eccentric-15x34",
+      "name": "Эксцентриковая стяжка",
+      "size": "15×34",
+      "geometry": "eccentric",
+      "elementCount": 2,
+      "compatibility": ["perpendicular-panels"],
+      "diameter": 15,
+      "length": 45,
+      "setback": 34,
+      "centered": true,
+      "holes": [
+        {
+          "part": "host",
+          "diameter": 15,
+          "depth": 12.5,
+          "axis": "face",
+          "inset": 34
+        },
+        {
+          "part": "host",
+          "diameter": 8,
+          "depth": 34
+        },
+        {
+          "part": "target",
+          "diameter": 5,
+          "depth": 11
+        }
+      ]
+    },
+    {
+      "id": "eccentric-15x24-dowel",
+      "name": "Эксцентриковая стяжка",
+      "size": "15×24",
+      "variant": "с футоркой",
+      "geometry": "eccentric",
+      "elementCount": 2,
+      "compatibility": ["perpendicular-panels"],
+      "diameter": 15,
+      "length": 37,
+      "setback": 24,
+      "centered": true,
+      "holes": [
+        {
+          "part": "host",
+          "diameter": 15,
+          "depth": 12.5,
+          "axis": "face",
+          "inset": 24
+        },
+        {
+          "part": "host",
+          "diameter": 8,
+          "depth": 24
+        },
+        {
+          "part": "target",
+          "diameter": 8,
+          "depth": 13
+        }
+      ]
+    },
+    {
+      "id": "eccentric-15x34-dowel",
+      "name": "Эксцентриковая стяжка",
+      "size": "15×34",
+      "variant": "с футоркой",
+      "geometry": "eccentric",
+      "elementCount": 2,
+      "compatibility": ["perpendicular-panels"],
+      "diameter": 15,
+      "length": 47,
+      "setback": 34,
+      "centered": true,
+      "holes": [
+        {
+          "part": "host",
+          "diameter": 15,
+          "depth": 12.5,
+          "axis": "face",
+          "inset": 34
+        },
+        {
+          "part": "host",
+          "diameter": 8,
+          "depth": 34
+        },
+        {
+          "part": "target",
+          "diameter": 8,
+          "depth": 13
+        }
+      ]
+    },
+    {
+      "id": "corner-bracket-18",
+      "name": "Уголок",
+      "size": "18×18×14",
+      "geometry": "corner-bracket",
+      "elementCount": 2,
+      "compatibility": ["perpendicular-panels"],
+      "bracket": {
+        "legLength": 18,
+        "width": 14,
+        "thickness": 1.5,
+        "screwDiameter": 2,
+        "screwDepth": 4,
+        "screwInset": 12
+      }
+    },
+    {
+      "id": "corner-bracket-20",
+      "name": "Уголок",
+      "size": "20×20×16",
+      "geometry": "corner-bracket",
+      "elementCount": 2,
+      "compatibility": ["perpendicular-panels"],
+      "bracket": {
+        "legLength": 20,
+        "width": 16,
+        "thickness": 2,
+        "screwDiameter": 2,
+        "screwDepth": 4,
+        "screwInset": 12
+      }
+    }
+  ]
+}
